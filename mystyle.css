@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.google.com/specimen/Josefin+Sans);
+
+body {
+    background-size: cover;
+    background-color: rgb(26, 48, 47);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding: auto;
+}
+
+
+
+.introd {
+    text-align: right;
+    padding: 50px;
+    font-family: 'Montserrat';
+    font-size: larger;
+    color: white;
+
+}
+
+#intro2 {
+    font-style: italic;
+    font-size: medium;
+}
+ 
+
+
+#me2 {
+    padding: 0;
+    margin: 20px;
+    background-color: white;
+}
+
+#me3 {
+    padding: auto;
+    margin: auto;
+}
+
+#me4 {
+    padding: auto;
+    margin: auto;
+}
+
+#info1 {
+    font-family: 'Josefin+Sans';
+    font-size: large;
+    text-align: left;
+    margin: auto;
+    padding: 100px;
+    font-size: x-large;
+}
+
+#phase2 {
+    font-family: Montserrat;
+    margin: 200px;
+    font-weight: bold;
+
+}
+
+fieldset {
+    color: #8f753b;
+}
+
+legend {
+
+    color: #8f753b;
+    padding: 5px 10px;
+
+}
+
+.ig {
+    color: white;
+    padding: 50px;
+    text-align: right;
+    font-family: 'Josefin+Sans';
+    font-size: x-large;
+
+}
+
+#myaclegend {
+    font-family: 'Josefin+Sans';
+}
+
+#phase3 {
+    font-family: 'Montserrat';
+    padding: 100px;
+}
+
+#me5 {
+    float: right;
+    margin: 50px;
+}
+
+
+.lasttext {
+    font-family: 'Montserrat';
+    padding: 100px;
+}
+
+mark {
+    background-color: #8f753b;
+
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(26, 48, 47);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8f753b;
+    border-radius: 10px;
+}
+
+#studentinfo{
+    font-family: Montserrat;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #rgb(26, 48, 47);
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family:Montserrat ;
+    font-size: x-large;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
