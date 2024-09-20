@@ -129,14 +129,15 @@ mark {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #rgb(26, 48, 47);
-    padding: 15px;
+    background-color: rgb(26, 48, 47);
+    padding:15px;
+    margin-bottom:100px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-family:Montserrat ;
+    font-family:Josefin+Sans ;
     font-size: x-large;
     padding: 10px 15px;
 }
@@ -146,3 +147,10 @@ nav a:hover {
     transition: background-color 0.3s ease;
 }
 
+#myfuture{
+    padding: 30px;
+    font-family:Josefin+Sans ;
+    color: white;
+    text-align: center;
+    
+}
