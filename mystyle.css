@@ -132,6 +132,7 @@ nav {
     background-color: rgb(26, 48, 47);
     padding: 10px;
     margin-bottom: 10px;
+    opacity: 90%;
 
 }
 
@@ -149,7 +150,7 @@ nav a:hover {
 }
 
 
-#myfuture {
+#myjourney {
     padding: 30px;
     font-family: Josefin+Sans;
     color: white;
@@ -157,24 +158,32 @@ nav a:hover {
     font-size: xxx-large;
 }
 
-.futuretext {
+.journeytext {
     color: white;
     font-family: Montserrat;
+    margin-bottom: 50px;
+}
 
-    #firstyear {
-        padding: 100px;
-    }
+#myjr1 {
+    background-color: rgb(26, 48, 47);
+    padding-left: px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    height: 200px;
+    text-align: center;
+}
 
-    #secondyear {
-        padding: 100px;
-    }
+#myjr2 {
+    background-color: rgb(26, 48, 47);
+    padding-left: px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    height: 200px;
 
-    #thirdyear {
-        padding: 100px;
-    }
+}
+.journeytext2 {
+    color: white;
+    font-family: Montserrat;
+}
 
-    #forthyear {
-        padding: 100px;
-
-    }
+#pageindex{
+    color: ;
 }
