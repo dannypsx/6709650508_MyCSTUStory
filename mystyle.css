@@ -117,7 +117,7 @@ mark {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #8f753b;
+    background-color: rgb(145, 118, 59);
     border-radius: 10px;
 }
 
@@ -130,8 +130,9 @@ nav {
     display: flex;
     justify-content: center;
     background-color: rgb(26, 48, 47);
-    padding: 15px;
-    margin-bottom: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+
 }
 
 nav a {
@@ -147,6 +148,7 @@ nav a:hover {
     transition: background-color 0.3s ease;
 }
 
+
 #myfuture {
     padding: 30px;
     font-family: Josefin+Sans;
@@ -155,9 +157,24 @@ nav a:hover {
     font-size: xxx-large;
 }
 
-
-.futuretext{
+.futuretext {
     color: white;
-    
-}
+    font-family: Montserrat;
 
+    #firstyear {
+        padding: 100px;
+    }
+
+    #secondyear {
+        padding: 100px;
+    }
+
+    #thirdyear {
+        padding: 100px;
+    }
+
+    #forthyear {
+        padding: 100px;
+
+    }
+}
