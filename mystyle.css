@@ -12,7 +12,16 @@
 
 #bodymyjourney {
     background-size: cover;
-    background-color: rgba(107, 91, 65, 255);
+    background-color: #6b5b41;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding: auto;
+}
+
+#bodyfuture {
+    background-size: cover;
+    background-color: rgb(26, 48, 47);
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: auto;
@@ -165,6 +174,7 @@ nav a:hover {
     color: white;
     text-align: center;
     font-size: xxx-large;
+    
 }
 
 .journeytext {
@@ -173,23 +183,41 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
-#myjr1  {
+#myjr1-1 {
     background-color: rgb(26, 48, 47);
     padding-right: 40px;
     padding-left: 40px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     padding: 25px;
-    margin-left:;
     text-align: left;
-    
+
 }
 
-#myjr2 {
+#myjr1-2 {
+    background-color: rgb(26, 48, 47);
+    padding-right: 40px;
+    padding-left: 40px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    padding: 25px;
+    text-align: center;
+
+}
+
+#myjr2-1 {
     background-color: rgb(26, 48, 47);
     padding-right: 20px;
     padding-left: 20px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     height: 200px;
+
+}
+
+#myjr2-2 {
+    background-color: rgb(26, 48, 47);
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    height: 200px;
+    text-align: right;
 
 }
 
@@ -210,6 +238,10 @@ nav a:hover {
     font-family: Montserrat;
 }
 
-#myjourimg1{
+#myjourimg1 {
+    box-shadow: 1px 5px 15px rgb(0, 0, 0);
+}
+#myjourimg2 {
     box-shadow: 1px 5px 15px rgb(54, 43, 43);
+    
 }
