@@ -173,13 +173,15 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
-#myjr1 {
+#myjr1  {
     background-color: rgb(26, 48, 47);
     padding-right: 40px;
     padding-left: 40px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
-    height: 200px;
-    text-align: center;
+    padding: 25px;
+    margin-left:;
+    text-align: left;
+    
 }
 
 #myjr2 {
@@ -195,14 +197,19 @@ nav a:hover {
     color: white;
     font-family: Montserrat;
     margin-bottom: 50px;
+
 }
 
 .journeytext3 {
     color: white;
     font-family: Montserrat;
-    margin-bottom: 50px;
+    margin-bottom: px;
 }
 
 .pageindex {
     font-family: Montserrat;
+}
+
+#myjourimg1{
+    box-shadow: 1px 5px 15px rgb(54, 43, 43);
 }
