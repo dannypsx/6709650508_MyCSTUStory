@@ -1,9 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.google.com/specimen/Josefin+Sans);
 
-body {
+#bodyindex {
     background-size: cover;
     background-color: rgb(26, 48, 47);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding: auto;
+}
+
+#bodymyjourney {
+    background-size: cover;
+    background-color: rgba(107, 91, 65, 255);
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: auto;
@@ -166,7 +175,8 @@ nav a:hover {
 
 #myjr1 {
     background-color: rgb(26, 48, 47);
-    padding-left: px;
+    padding-right: 40px;
+    padding-left: 40px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     height: 200px;
     text-align: center;
@@ -174,16 +184,25 @@ nav a:hover {
 
 #myjr2 {
     background-color: rgb(26, 48, 47);
-    padding-left: px;
+    padding-right: 20px;
+    padding-left: 20px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     height: 200px;
 
 }
+
 .journeytext2 {
     color: white;
     font-family: Montserrat;
+    margin-bottom: 50px;
 }
 
-#pageindex{
-    color: ;
+.journeytext3 {
+    color: white;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+
+.pageindex {
+    font-family: Montserrat;
 }
