@@ -28,8 +28,6 @@
     padding: auto;
 }
 
-
-
 .introd {
     text-align: right;
     padding: 50px;
@@ -43,8 +41,6 @@
     font-style: italic;
     font-size: medium;
 }
-
-
 
 #me2 {
     padding: 0;
@@ -185,27 +181,37 @@ nav a:hover {
     color: white;
     font-family: Montserrat;
     margin-bottom: 50px;
+
+    p {
+        color: #acacac;
+    }
 }
 
-#myft1-1 {
-    p {
-        padding-left: 20px;
-    }
+.futuretext2 {
+    color: white;
+    font-family: Montserrat;
+
+  
 
     h2 {
         padding-left: 20px;
-        text-decoration: double underline;
+
 
     }
+    p {
+        color: #acacac;
+        padding-left: 20px;
+    }
 
+}
+
+#myft1-1 {
     background-color: rgb(26, 48, 47);
     padding-right: 40px;
     padding-left: 40px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     padding: 25px;
     text-align: left;
-
-
 }
 
 #myft1-2 {
@@ -214,8 +220,7 @@ nav a:hover {
     padding-left: 40px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     padding: 25px;
-    text-align: center;
-
+    text-align: left;
 }
 
 #myft2-1 {
@@ -224,33 +229,15 @@ nav a:hover {
     padding-left: 20px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     height: 200px;
-
+    text-align: left;
 }
 
 #myft2-2 {
-    p {
-        padding-right: 20px;
-    }
-
-    h2 {
-        padding-right: 20px;
-        text-decoration: double underline;
-
-    }
-
     background-color: rgb(26, 48, 47);
     padding: 20px;
     box-shadow: 5px 5px 15px rgb(0, 0, 0);
     height: 200px;
-    text-align: right;
-
-}
-
-.futuretext2 {
-    color: white;
-    font-family: Montserrat;
-    margin-bottom: 50px;
-
+    text-align: left;
 }
 
 .pageindex {
@@ -262,7 +249,8 @@ nav a:hover {
 }
 
 #myftimg2 {
-    box-shadow: 1px 5px 15px rgb(54, 43, 43);
+    height: 100%;
+
 
 }
 
@@ -276,6 +264,7 @@ nav a:hover {
     justify-content: space-between;
 
 }
+
 
 .myjourneytext div {
     flex: 1;
