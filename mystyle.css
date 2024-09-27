@@ -143,9 +143,11 @@ mark {
     font-family: Montserrat;
     color: white;
 }
-hr{
+
+hr {
     opacity: 10%;
 }
+
 nav {
     display: flex;
     justify-content: center;
@@ -176,7 +178,7 @@ nav a:hover {
     color: white;
     text-align: center;
     font-size: xxx-large;
-    
+
 }
 
 .journeytext {
@@ -243,7 +245,45 @@ nav a:hover {
 #myjourimg1 {
     box-shadow: 1px 5px 15px rgb(0, 0, 0);
 }
+
 #myjourimg2 {
     box-shadow: 1px 5px 15px rgb(54, 43, 43);
-    
+
+}
+
+.myfuturetext {
+    display: flex;
+    color: #8f753b;
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(237, 237, 237);
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.myfuturetext div {
+    flex: 1;
+
+}
+
+.myfuturetext img {
+    width: 50%;
+    /* Set a fixed width */
+    height: auto;
+    /* Set a fixed height */
+    object-fit: cover;
+    /* Ensures the image covers the container while maintaining the aspect ratio */
+}
+
+
+
+.myfuturetext p {
+    margin: 0;
+
+    margin-bottom: 10px;
+
+    h1 {
+        margin-bottom: 15px;
+    }
 }
