@@ -191,13 +191,14 @@ nav a:hover {
     color: white;
     font-family: Montserrat;
 
-  
+
 
     h2 {
         padding-left: 20px;
 
 
     }
+
     p {
         color: #acacac;
         padding-left: 20px;
@@ -256,15 +257,57 @@ nav a:hover {
 
 .myjourneytext {
     display: flex;
-    color: #8f753b;
+    color: white;
     padding: 30px;
     margin: 30px;
-    background-color: rgb(236, 236, 236);
+    background-color: #8f753b;
     align-items: center;
     justify-content: space-between;
 
 }
 
+.myjourneypic1 {
+    display: flex;
+    color: #8f753b;
+    padding: 30px;
+    margin: 30px;
+    background-color: white;
+    justify-content: space-between;
+
+    img {
+        width: 30%;
+    }
+
+}
+
+.myjourneypic2 {
+    color: #8f753b;
+    padding: 30px;
+    margin: 30px;
+    background-color: white;
+    text-align: center;
+
+    img {
+        width: 80%;
+
+    }
+
+}
+
+
+.myjourneypic4 {
+    color: #8f753b;
+    padding: 30px;
+    margin: 30px;
+    background-color: white;
+    text-align: center;
+
+    img {
+        width: 80%;
+
+    }
+
+}
 
 .myjourneytext div {
     flex: 1;
